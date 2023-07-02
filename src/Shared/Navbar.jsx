@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import webIcon from '../assets/Icon_Prot.jpg';
 
 const Navbar = () => {
 
@@ -25,12 +25,12 @@ const Navbar = () => {
                     {navOptions}
                 </ul>
                 </div>
-                <div className="flex items-center gap-5 md:ml-5">
-                    {/* <div>
-                        <img src={} alt="" className="w-[50px] md:w-[80px]"/>
-                    </div> */}
+                <div className="flex items-center gap-8 md:ml-5">
                     <div>
-                        <p className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 md:ml-40 font-bold">Ashik</p>
+                        <img src={webIcon} alt="" className="w-[50px] md:w-[80px] md:ml-40 rounded-3xl"/>
+                    </div>
+                    <div>
+                        <p className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold">Ashik</p>
                     </div>
                 </div>
             </div>

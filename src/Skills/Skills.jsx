@@ -112,13 +112,13 @@ const Skills = () => {
                 <p className="uppercase text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-teal-600 border border-sky-500
                 font-bold text-2xl rounded-2xl p-3 text-center" data-aos="fade-down" data-aos-duration="1000">Interpersonal Skills</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-14">
-                    <div className="text-white font-semibold text-2xl mt-10 mb-10 p-3
+                    <div className="text-white font-semibold text-2xl mt-10 p-3
                     flex flex-col items-center justify-center border border-teal-600 rounded-3xl"
                     data-aos="fade-left" data-aos-duration="1000">
                         <p className="text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">TeamWork</p>
                         <p className="text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">Well Communication</p>
                     </div>
-                    <div className="text-white font-semibold text-2xl mt-10 mb-10 p-3
+                    <div className="text-white font-semibold text-2xl mt-5 p-3
                     flex flex-col items-center justify-center border border-teal-600 rounded-3xl"
                     data-aos="fade-right" data-aos-duration="1000">
                         <p className="text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">Explore New Technologies</p>

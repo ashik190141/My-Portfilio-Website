@@ -21,12 +21,12 @@ const Navbar = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </label>
-                    <ul tabIndex={0} className="bg-white menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
+                    <ul tabIndex={0} className="z-10 bg-white menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
                         {navOptions}
                     </ul>
                 </div>
                 <div className="flex items-center gap-4 md:gap-8 md:ml-5">
-                    <div className="w-10">
+                    <div className="">
                         <img src={webIcon} alt="" className="w-[80px] md:w-[80px] md:ml-40 rounded-3xl"/>
                     </div>
                     <div>

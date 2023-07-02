@@ -56,9 +56,9 @@ const About = () => {
                             <p className="ml-14">National ID:</p>
                             <p>7363422069</p>
                         </div>
-                        <div className="grid grid-cols-2 mb-3">
+                        <div className="grid grid-cols-1 md:grid-cols-2 mb-3">
                             <p className="ml-14">Email:</p>
-                            <p>ashanmahmudashik@gmail.com</p>
+                            <p className="ml-14 md:ml-0">ashanmahmudashik@gmail.com</p>
                         </div>
                         <div className="grid grid-cols-2 mb-3">
                             <p className="ml-14">Github:</p>

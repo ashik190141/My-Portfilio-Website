@@ -5,7 +5,7 @@ const ProjectsDisplay = ({ project }) => {
     const { project_name, technologies, card_img, id, live_site } = project;
     return (
         <div data-aos="zoom-in-up" data-aos-duration="1000">
-            <div className="card card-compact w-80 md:w-96 h-[720px] text-white shadow-xl bg-amber-700">
+            <div className="card card-compact w-full md:w-96 h-[720px] text-white shadow-xl bg-amber-700">
                 <figure>
                     <img src={card_img} alt="" className='w-full h-[350px] rounded-xl p-1' />
                 </figure>

@@ -72,7 +72,7 @@ const ContactUs = () => {
                 </Fade>
                 <Fade top right>
                     <div>
-                        <h2 className='text-white text-center font-bold text-3xl font-sans mb-8'>Send Email</h2>
+                        <h2 className='text-white text-center font-bold text-3xl font-sans mb-8 mt-20'>Send Email</h2>
                         <form ref={form} onSubmit={sendEmail}>
                             <div>
                                 <div className="form-control w-full mb-6">

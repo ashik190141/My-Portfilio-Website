@@ -18,7 +18,8 @@ const Education = () => {
                         <div>January 2020</div>
                         <div>To Present</div>
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w-full md:w-[700px] h-48 rounded-2xl'>
+                    <div data-aos="flip-right" data-aos-duration="2000" className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+                    w-full md:w-[700px] h-48 rounded-2xl'>
                         <div className='text-white text-xl font-semibold flex flex-col md:pl-10'>
                             <p className='mt-10 md:mt-14'>Jashore University of Science and Technology</p>
                             <p>Computer Science and Engineering</p>

@@ -12,7 +12,7 @@ const Skills = () => {
         <div className="max-w-7xl mx-auto mt-32 mb-32">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Fade top left duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[0].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[0].skill_name}</h2>
@@ -20,7 +20,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Bounce top duration="2300">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[1].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[1].skill_name}</h2>
@@ -28,7 +28,7 @@ const Skills = () => {
                     </div>
                 </Bounce>
                 <Fade top right duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[2].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[2].skill_name}</h2>
@@ -36,7 +36,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Fade left duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[3].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[3].skill_name}</h2>
@@ -44,7 +44,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Zoom clear duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[4].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[4].skill_name}</h2>
@@ -52,7 +52,7 @@ const Skills = () => {
                     </div>
                 </Zoom>
                 <Fade right duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[5].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[5].skill_name}</h2>
@@ -60,7 +60,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Fade left duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[6].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[6].skill_name}</h2>
@@ -68,7 +68,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Zoom clear duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[7].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[7].skill_name}</h2>
@@ -76,7 +76,7 @@ const Skills = () => {
                     </div>
                 </Zoom>
                 <Fade right duration="2000">
-                        <div className="card w-96 bg-base-100 shadow-xl image-full">
+                        <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[8].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[8].skill_name}</h2>
@@ -84,7 +84,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Fade bottom left duration="2000">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[9].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[9].skill_name}</h2>
@@ -92,7 +92,7 @@ const Skills = () => {
                     </div>
                 </Fade>
                 <Bounce bottom duration="2300">
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[10].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[10].skill_name}</h2>
@@ -100,7 +100,7 @@ const Skills = () => {
                     </div>
                 </Bounce>
                 <Fade bottom right>
-                    <div className="card w-96 bg-base-100 shadow-xl image-full">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
                         <figure><img src={skills[11].img} alt=""/></figure>
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold">{skills[11].skill_name}</h2>

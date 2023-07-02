@@ -7,7 +7,7 @@ const Myself = () => {
         <div className="max-w-7xl mx-auto mt-20">
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5 items-center'>
                 <div data-aos="zoom-in-up" data-aos-duration="1000">
-                    <img src={img} alt="" className='border border-orange-500 rounded-3xl'/>
+                    <img src={img} alt="" className='border border-orange-500 rounded-3xl w-full'/>
                 </div>
                 <div className='p-2 md:p-0'>
                     <h2 className="text-white text-2xl font-bold mb-4">Hi, I am</h2>

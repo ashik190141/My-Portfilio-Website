@@ -1,109 +1,118 @@
-import { useLoaderData } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
 import useTitle from "../Hooks/useTitle";
+import javascript from "../../public/skills/bootstrap.jpg";
+import nodejs from "../../public/skills/nodejs.jpg";
+import mongodb from "../../public/skills/mongodb.jpg";
+import react from "../../public/skills/react.jpg";
+import firebase from "../../public/skills/firebase.jpg";
+import python from "../../public/skills/python.jpg";
+import c from "../../public/skills/c.jpg";
+import java from "../../public/skills/java.jpg";
+import bootstrap from "../../public/skills/bootstrap.jpg";
+import tailwind from "../../public/skills/tailwind.jpg";
+import html from "../../public/skills/html.jpg";
+import css from "../../public/skills/css.jpg";
 
 const Skills = () => {
     useTitle('Skills')
-    const skills = useLoaderData();
-    console.log(skills);
     return (
         <div className="max-w-7xl mx-auto mt-32 mb-32">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Fade top left duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[0].img} alt=""/></figure>
+                        <figure><img src={javascript} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[0].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Javascript</h2>
                         </div>
                     </div>
                 </Fade>
                 <Bounce top duration="2300">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[1].img} alt=""/></figure>
+                        <figure><img src={nodejs} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[1].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Node.js</h2>
                         </div>
                     </div>
                 </Bounce>
                 <Fade top right duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[2].img} alt=""/></figure>
+                        <figure><img src={mongodb} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[2].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">MongoDB</h2>
                         </div>
                     </div>
                 </Fade>
                 <Fade left duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[3].img} alt=""/></figure>
+                        <figure><img src={react} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[3].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">React</h2>
                         </div>
                     </div>
                 </Fade>
                 <Zoom clear duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[4].img} alt=""/></figure>
+                        <figure><img src={firebase} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[4].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Firebase</h2>
                         </div>
                     </div>
                 </Zoom>
                 <Fade right duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[5].img} alt=""/></figure>
+                        <figure><img src={python} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[5].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Python</h2>
                         </div>
                     </div>
                 </Fade>
                 <Fade left duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[6].img} alt=""/></figure>
+                        <figure><img src={c} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[6].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">C/C++</h2>
                         </div>
                     </div>
                 </Fade>
                 <Zoom clear duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[7].img} alt=""/></figure>
+                        <figure><img src={java} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[7].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Java</h2>
                         </div>
                     </div>
                 </Zoom>
                 <Fade right duration="2000">
                         <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[8].img} alt=""/></figure>
+                        <figure><img src={bootstrap} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[8].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Bootstrap</h2>
                         </div>
                     </div>
                 </Fade>
                 <Fade bottom left duration="2000">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[9].img} alt=""/></figure>
+                        <figure><img src={tailwind} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[9].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">Tailwind</h2>
                         </div>
                     </div>
                 </Fade>
                 <Bounce bottom duration="2300">
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[10].img} alt=""/></figure>
+                        <figure><img src={html} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[10].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">HTML</h2>
                         </div>
                     </div>
                 </Bounce>
                 <Fade bottom right>
                     <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src={skills[11].img} alt=""/></figure>
+                        <figure><img src={css} alt=""/></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-3xl font-bold">{skills[11].skill_name}</h2>
+                            <h2 className="card-title text-3xl font-bold">CSS</h2>
                         </div>
                     </div>
                 </Fade>

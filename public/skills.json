@@ -1,62 +1,62 @@
 [
     {
         "id":"2",
-        "img":"../src/images/skills/javascript.jpg",
+        "img":"../public/skills/javascript.jpg",
         "skill_name": "Javascript"
     },
     {
         "id":"3",
-        "img":"../src/images/skills/nodejs.jpg",
+        "img":"../public/skills/nodejs.jpg",
         "skill_name": "Node.js"
     },
     {
         "id":"5",
-        "img":"../src/images/skills/mongodb.jpg",
+        "img":"../public/skills/mongodb.jpg",
         "skill_name": "MongoDB"
     },
     {
         "id":"11",
-        "img":"../src/images/skills/react.jpg",
+        "img":"../public/skills/react.jpg",
         "skill_name": "React"
     },
     {
         "id":"12",
-        "img":"../src/images/skills/firebase.jpg",
+        "img":"../public/skills/firebase.jpg",
         "skill_name": "Firebase"
     },
     {
         "id":"4",
-        "img":"../src/images/skills/python.jpg",
+        "img":"../public/skills/python.jpg",
         "skill_name": "Python"
     },
     {
         "id":"1",
-        "img":"../src/images/skills/c.jpg",
+        "img":"../public/skills/c.jpg",
         "skill_name": "C/C++"
     },
     {
         "id":"6",
-        "img":"../src/images/skills/java.jpg",
+        "img":"../public/skills/java.jpg",
         "skill_name": "Java"
     },
     {
         "id":"7",
-        "img":"../src/images/skills/bootstrap.jpg",
+        "img":"../public/skills/bootstrap.jpg",
         "skill_name": "Bootstrap"
     },
     {
         "id":"8",
-        "img":"../src/images/skills/tailwind.jpg",
+        "img":"../public/skills/tailwind.jpg",
         "skill_name": "Tailwind"
     },
     {
         "id":"9",
-        "img":"../src/images/skills/html.jpg",
+        "img":"../public/skills/html.jpg",
         "skill_name": "HTML"
     },
     {
         "id":"10",
-        "img":"../src/images/skills/css.jpg",
+        "img":"../public/skills/css.jpg",
         "skill_name": "CSS"
     }
 ]

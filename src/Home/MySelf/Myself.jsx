@@ -21,7 +21,7 @@ const Myself = () => {
                             1000,
                             'Problem Solving',
                             1000,
-                            'Competitive Programming',
+                            'Competitive Programmer',
                             1000
                         ]}
                         wrapper="span"

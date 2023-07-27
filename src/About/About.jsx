@@ -54,7 +54,7 @@ const About = () => {
                         </div>
                         <div className="grid grid-cols-2 mb-3">
                             <p className="ml-14">National ID:</p>
-                            <p>7363422069</p>
+                            <p>73******69</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 mb-3">
                             <p className="ml-14">Email:</p>

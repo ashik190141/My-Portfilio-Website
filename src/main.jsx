@@ -38,12 +38,12 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Projects></Projects>,
-        loader: () => fetch('http://localhost:5000/projects')
+        loader: () => fetch('https://portfolio-server-six-gamma.vercel.app/projects')
       },
       {
         path: '/projects/:id',
         element: <ProjectDetails></ProjectDetails>,
-        loader: ({params})=> fetch(`http://localhost:5000/projects/${params.id}`)
+        loader: ({params})=> fetch(`https://portfolio-server-six-gamma.vercel.app/projects/${params.id}`)
       }
     ]
   },

@@ -38,12 +38,12 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Projects></Projects>,
-        loader: () => fetch('/projects.json')
+        loader: () => fetch('http://localhost:5000/projects')
       },
       {
         path: '/projects/:id',
         element: <ProjectDetails></ProjectDetails>,
-        loader: ()=> fetch('/projects.json')
+        loader: ({params})=> fetch(`http://localhost:5000/projects/${params.id}`)
       }
     ]
   },

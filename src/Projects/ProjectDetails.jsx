@@ -1,12 +1,9 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import useTitle from "../Hooks/useTitle";
 import { TypeAnimation } from 'react-type-animation';
 
 const ProjectDetails = () => {
-    const projectID = useParams();
-    const projects = useLoaderData();
-    const targetProject = projects.find(project => project.id === projectID.id);
-    console.log(targetProject);
+    const targetProject = useLoaderData();
     const pageTitle = targetProject.project_name
     useTitle(pageTitle);
     return (

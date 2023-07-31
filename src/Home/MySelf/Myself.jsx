@@ -34,7 +34,7 @@ const Myself = () => {
                         I am a highly motivated, hard worker and progress-focused web developer. I am try to learn and explore new technologies all time. Skilled in creating responsive user interfaces and building RESTful APIs. 
                     </p>
                     <div>
-                        <a href="Resume_of_Ahsan_Mahmud.pdf" download="Resume_of_Ahsan_Mahmud.pdf">
+                        <a href="https://docs.google.com/document/d/1aPnLFtK5spGVVEqnc4KGnh7bXtFtJzep/edit?usp=sharing&ouid=117078648661319113862&rtpof=true&sd=true" download="Resume_of_Ahsan_Mahmud.pdf">
                             <button className='flex gap-5 items-center font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-teal-600 border border-sky-500 rounded-2xl p-3'>
                                 Download Resume<FaDownload className='text-orange-500'></FaDownload>
                             </button>

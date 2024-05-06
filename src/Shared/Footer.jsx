@@ -2,6 +2,9 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+let currentDate = new Date();
+let currentYear = currentDate.getFullYear();
+
 const Footer = () => {
     return (
         <div className="mt-10">
@@ -10,7 +13,7 @@ const Footer = () => {
                 <p className="font-bold italic">
                     `Work hard in silence,let your success be your noise` <br />Frank Ocean
                 </p>
-                <p>Copyright © 2023 - All right reserved by <br/> Ahsan Mahmud Ashik</p>
+                <p>Copyright © {currentYear} - All right reserved by <br/> Ahsan Mahmud Ashik</p>
             </aside>
             <nav>
                 <div className="grid grid-flow-col text-pink-600 text-3xl gap-4">

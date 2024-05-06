@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex items-center gap-4 md:gap-8 md:ml-5">
                     <div className="">
-                        <img src={webIcon} alt="" className="w-[80px] md:w-[80px] md:ml-40 rounded-3xl"/>
+                        <img src={webIcon} alt="" className="w-[80px] md:w-[80px] md:ml-36 rounded-3xl"/>
                     </div>
                     <div>
                         <p className="text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold">Ashik</p>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 
             </div>
-            <div className="navbar-end md:gap-4 md:mr-40">
+            <div className="navbar-end md:gap-4 md:mr-36">
                 <ul className="menu menu-horizontal px-1 hidden md:flex">
                     {navOptions}
                 </ul>

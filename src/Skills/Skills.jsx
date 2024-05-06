@@ -14,6 +14,10 @@ import bootstrap from "../../public/skills/bootstrap.jpg";
 import tailwind from "../../public/skills/tailwind.jpg";
 import html from "../../public/skills/html.jpg";
 import css from "../../public/skills/css.jpg";
+import typeScript from "../../public/skills/TypeScript.png"
+import mongoose from "../../public/skills/mongoose.jfif"
+import next from "../../public/skills/Next.jpg"
+import redux from "../../public/skills/redux.jpg"
 
 const Skills = () => {
     useTitle('Skills')
@@ -116,7 +120,46 @@ const Skills = () => {
                         </div>
                     </div>
                 </Fade>
+               {/* //New */}
+                <Fade bottom left duration="2000">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
+                        <figure><img src={redux} alt=""/></figure>
+                        <div className="card-body">
+                            <h2 className="card-title text-3xl font-bold">Redux</h2>
+                        </div>
+                    </div>
+                </Fade>
+
+                <Zoom clear duration="2000">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
+                        <figure><img src={mongoose} alt=""/></figure>
+                        <div className="card-body">
+                            <h2 className="card-title text-3xl font-bold">Mongoose</h2>
+                        </div>
+                    </div>
+                </Zoom>
+
+                <Fade bottom right>
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
+                        <figure><img src={typeScript} alt=""/></figure>
+                        <div className="card-body">
+                            <h2 className="card-title text-3xl font-bold">TypeScript</h2>
+                        </div>
+                    </div>
+                </Fade>
+
+                <Bounce bottom duration="2300">
+                    <div className="card w-full md:w-96 bg-base-100 shadow-xl image-full">
+                        <figure><img src={next} alt=""/></figure>
+                        <div className="card-body">
+                            <h2 className="card-title text-3xl font-bold">Next</h2>
+                        </div>
+                    </div>
+                </Bounce>
+                
             </div>
+
+
             <div className="mt-32 mb-32">
                 <p className="uppercase text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-teal-600 border border-sky-500
                 font-bold text-2xl rounded-2xl p-3 text-center" data-aos="fade-down" data-aos-duration="1000">Interpersonal Skills</p>

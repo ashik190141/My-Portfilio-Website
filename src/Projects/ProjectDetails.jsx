@@ -22,7 +22,7 @@ const ProjectDetails = () => {
             </span></p>
             <h2 className="text-white text-3xl font-bold mb-3"
             data-aos="zoom-in-up" data-aos-duration="2000">Features:</h2>
-            <div className="text-white text-2xl font-semibold mb-4"
+            <div className="text-white text-2xl mb-4"
             data-aos="zoom-in-up" data-aos-duration="2000">
                 {
                     targetProject.details.map((detail,index) => <div key={targetProject.id}>

@@ -9,6 +9,7 @@ const Navbar = () => {
         <li className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-semibold uppercase"><Link to="/skills">Skills</Link></li>
         <li className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-semibold uppercase"><Link to="/projects">Projects</Link></li>
         <li className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-semibold uppercase"><Link to='/contact'>Contact Me</Link></li>
+        <li className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-semibold uppercase"><Link to='/blog'>Blog</Link></li>
     </>
 
     return (

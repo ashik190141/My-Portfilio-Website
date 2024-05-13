@@ -11,6 +11,12 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import ProjectDetails from "./Projects/ProjectDetails";
 import Blog from "./Blog/Blog";
+import AuthProvider from "./Provider/AuthProvider";
+import SignUp from "./Authentication/SignUp/SignUp";
+import LogIn from './Authentication/LogIn/LogIn';
+import DashboardLayout from "./Layout/DashboardLayout";
+import AddSkill from './Dashboard/AddSkill/AddSkill';
+import AddPost from './Dashboard/AddPost/AddPost';
 
 const router = createBrowserRouter([
   {
@@ -55,10 +61,34 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/logIn",
+    element: <LogIn></LogIn>,
+  },
+  {
+    path: "/signUp",
+    element: <SignUp></SignUp>,
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardLayout></DashboardLayout>,
+    children: [
+      {
+        path: "add-skill",
+        element: <AddSkill></AddSkill>,
+      },
+      {
+        path: "add-blog",
+        element: <AddPost></AddPost>,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <AuthProvider>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </AuthProvider>
 );

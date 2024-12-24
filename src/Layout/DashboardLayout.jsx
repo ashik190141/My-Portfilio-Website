@@ -181,24 +181,29 @@ export default function DashboardLayout() {
             </ListItem>
           </Link>
           <ListItem key="Project" disablePadding sx={{ display: "block" }}>
-            <ListItemButton
-              sx={{
-                minHeight: 48,
-                justifyContent: open ? "initial" : "center",
-                px: 2.5,
-              }}
-            >
-              <ListItemIcon
+            <Link to="/dashboard/add-project">
+              <ListItemButton
                 sx={{
-                  minWidth: 0,
-                  mr: open ? 3 : "auto",
-                  justifyContent: "center",
+                  minHeight: 48,
+                  justifyContent: open ? "initial" : "center",
+                  px: 2.5,
                 }}
               >
-                <AccountTreeIcon></AccountTreeIcon>
-              </ListItemIcon>
-              <ListItemText primary="Project" sx={{ opacity: open ? 1 : 0 }} />
-            </ListItemButton>
+                <ListItemIcon
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : "auto",
+                    justifyContent: "center",
+                  }}
+                >
+                  <AccountTreeIcon></AccountTreeIcon>
+                </ListItemIcon>
+                <ListItemText
+                  primary="Project"
+                  sx={{ opacity: open ? 1 : 0 }}
+                />
+              </ListItemButton>
+            </Link>
           </ListItem>
           <ListItem key="Blog" disablePadding sx={{ display: "block" }}>
             <Link to="/dashboard/add-blog">

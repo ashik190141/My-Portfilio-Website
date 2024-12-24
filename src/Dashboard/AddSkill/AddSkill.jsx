@@ -39,7 +39,7 @@ const AddSkill = () => {
                     confirmButtonText: "Ok",
                   }).then((result) => {
                     if (result.isConfirmed) {
-                      navigate("/dashboard");
+                      navigate("/");
                     }
                   });
                 } else {

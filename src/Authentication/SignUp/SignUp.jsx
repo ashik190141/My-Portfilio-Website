@@ -53,6 +53,7 @@ const SignUp = () => {
         createUser(email,password)
             .then(async result => {
             localStorage.setItem("key", email);
+            localStorage.setItem("type", "user");
             const userInfo = {name,email,password,type}
             const res = await CreateUser(userInfo);
             updateUserData(result.user, name);

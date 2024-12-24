@@ -1,6 +1,6 @@
-export const createSkill = async (data) => {
+export const UserLogin = async (data) => {
   const res = await fetch(
-    `https://portfolio-server-six-gamma.vercel.app/create-skill`,
+    `https://portfolio-server-six-gamma.vercel.app/login`,
     {
       method: "POST",
       headers: {

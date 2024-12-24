@@ -13,10 +13,11 @@ import ProjectDetails from "./Projects/ProjectDetails";
 import Blog from "./Blog/Blog";
 import AuthProvider from "./Provider/AuthProvider";
 import SignUp from "./Authentication/SignUp/SignUp";
-import LogIn from './Authentication/LogIn/LogIn';
+import LogIn from "./Authentication/LogIn/LogIn";
 import DashboardLayout from "./Layout/DashboardLayout";
-import AddSkill from './Dashboard/AddSkill/AddSkill';
-import AddPost from './Dashboard/AddPost/AddPost';
+import AddSkill from "./Dashboard/AddSkill/AddSkill";
+import AddPost from "./Dashboard/AddPost/AddPost";
+import AddProjects from "./Dashboard/AddProjects/AddProjects";
 
 const router = createBrowserRouter([
   {
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
       {
         path: "add-blog",
         element: <AddPost></AddPost>,
+      },
+      {
+        path: "add-project",
+        element: <AddProjects></AddProjects>,
       },
     ],
   },

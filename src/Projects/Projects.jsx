@@ -64,24 +64,24 @@ const Projects = () => {
                 MERN Stack
               </li>
               <li
-                onClick={() => handleSearch("FrontEnd")}
+                onClick={() => handleSearch("Frontend")}
                 className={`py-1 hover:cursor-pointer font-bold text-[16px] rounded-md pl-5 bg-[#E5E6E6] ${
                   text == "FrontEnd"
                     ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                     : ""
                 }`}
               >
-                FrontEnd
+                Frontend
               </li>
               <li
-                onClick={() => handleSearch("BackEnd")}
+                onClick={() => handleSearch("Backend")}
                 className={`py-1 hover:cursor-pointer font-bold text-[16px] rounded-md pl-5 bg-[#E5E6E6] ${
                   text == "BackEnd"
                     ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                     : ""
                 }`}
               >
-                BackEnd
+                Backend
               </li>
               <li
                 onClick={() => handleSearch("Mobile App")}

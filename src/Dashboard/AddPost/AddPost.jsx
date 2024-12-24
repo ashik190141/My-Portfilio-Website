@@ -56,7 +56,7 @@ const AddPost = () => {
                       confirmButtonText: "Ok",
                     }).then((result) => {
                       if (result.isConfirmed) {
-                        navigate("/dashboard");
+                        navigate("/blog");
                       }
                     });
                 }

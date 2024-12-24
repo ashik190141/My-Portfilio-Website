@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { FaGoogle } from "react-icons/fa";
+import { UserLogin } from "../../utils/UserLogin";
 
 
 const LogIn = () => {
@@ -12,38 +13,29 @@ const LogIn = () => {
     const location = useLocation();
     const from = location.state?.from?.pathname || '/';
 
-    const loginHandler = (event) => {
+    const loginHandler = async(event) => {
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
-        signIn(email, password)
-            .then(result => {
-                form.reset();
-                localStorage.setItem("key", email);
-                Swal.fire({
-                    title: 'Login Successful',
-                    showClass: {
-                        popup: 'animate__animated animate__fadeInDown'
-                    },
-                    hideClass: {
-                        popup: 'animate__animated animate__fadeOutUp'
-                    }
-                })
-                navigate(from, { replace: true });
-            })
-            .catch(error => {
-                Swal.fire({
-                    title: 'Email or Password do not matched',
-                    showClass: {
-                        popup: 'animate__animated animate__fadeInDown'
-                    },
-                    hideClass: {
-                        popup: 'animate__animated animate__fadeOutUp'
-                    }
-                })
-                console.log(error.message);
-            })
+        const res = await UserLogin({ email, password });
+        console.log(res);
+        if (res.result) {
+            form.reset();
+            localStorage.setItem("key", email);
+            localStorage.setItem("type", res.type);
+            Swal.fire({
+              title: "Login Successful",
+              showClass: {
+                popup: "animate__animated animate__fadeInDown",
+              },
+              hideClass: {
+                popup: "animate__animated animate__fadeOutUp",
+              },
+            });
+            navigate(from, { replace: true });
+        }
+
     }
 
     const googleLoginHandler = () => {

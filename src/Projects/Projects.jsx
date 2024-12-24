@@ -66,7 +66,7 @@ const Projects = () => {
               <li
                 onClick={() => handleSearch("Frontend")}
                 className={`py-1 hover:cursor-pointer font-bold text-[16px] rounded-md pl-5 bg-[#E5E6E6] ${
-                  text == "FrontEnd"
+                  text == "Frontend"
                     ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                     : ""
                 }`}
@@ -76,7 +76,7 @@ const Projects = () => {
               <li
                 onClick={() => handleSearch("Backend")}
                 className={`py-1 hover:cursor-pointer font-bold text-[16px] rounded-md pl-5 bg-[#E5E6E6] ${
-                  text == "BackEnd"
+                  text == "Backend"
                     ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                     : ""
                 }`}

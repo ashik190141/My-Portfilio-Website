@@ -16,14 +16,14 @@ const Education = () => {
                     <div data-aos="flip-left" data-aos-duration="2000" className='text-white text-center bg-orange-700 font-bold text-xl rounded-full 
                     w-48 h-48 p-5 flex flex-col items-center justify-center mb-3 md:mb-0 ml-20 md:ml-0'>
                         <div>January 2020</div>
-                        <div>To Present</div>
+                        <div>May 2025</div>
                     </div>
                     <div data-aos="flip-right" data-aos-duration="2000" className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
                     w-full md:w-[700px] h-48 rounded-2xl'>
                         <div className='text-white text-xl font-semibold flex flex-col md:pl-10'>
                             <p className='mt-10 md:mt-14'>Jashore University of Science and Technology</p>
                             <p>Computer Science and Engineering</p>
-                            <p>CGPA: 3.58 (upto 4<sup>th</sup> semester)</p>
+                            <p>CGPA: 3.57</p>
                         </div>
                     </div>
                 </div>

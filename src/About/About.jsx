@@ -81,7 +81,7 @@ const About = () => {
                         </div>
                         <div>
                             <p className="text-transparent bg-clip-text font-extrabold text-7xl 
-                            bg-gradient-to-r from-purple-400 to-pink-600">20+</p>
+                            bg-gradient-to-r from-purple-400 to-pink-600">25+</p>
                             <p className="text-white text-2xl mt-2 uppercase">Projects</p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const About = () => {
                         </div>
                         <div>
                             <p className="text-transparent bg-clip-text font-extrabold text-7xl 
-                            bg-gradient-to-r from-purple-400 to-pink-600">600+</p>
+                            bg-gradient-to-r from-purple-400 to-pink-600">900+</p>
                             <p className="text-white text-2xl mt-2 uppercase">problems Solve</p>
                         </div>
                     </div>
